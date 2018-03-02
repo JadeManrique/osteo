@@ -7,3 +7,5 @@ function password() {
     return alert("Incorrect Password");
   }
 }
+
+prompt("Type password to initiate nuclear weapon launch.");
