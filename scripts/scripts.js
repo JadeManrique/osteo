@@ -8,4 +8,9 @@ function password() {
   }
 }
 
-prompt("Type password to initiate nuclear weapon launch.");
+var nukePass = prompt("Type password to initiate nuclear weapon launch.");
+
+function nuke() {
+  if (nukePass == "mystery")
+  return console.log("working");
+}
