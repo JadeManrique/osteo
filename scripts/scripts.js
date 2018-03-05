@@ -1,8 +1,12 @@
+function welcome() {
+  var x = document.getElementById("username");
+  document.getElementById("textBox") = x;
+}
+
 function password() {
   var password = document.getElementById("password").value;
   if ( password == "chickens") {
-    var argue = alert("Welcome Back, Jade!");
-    return "Correct!";
+    return welcome();
   } else {
     return alert("Incorrect Password");
   }
@@ -11,6 +15,7 @@ function password() {
 var nukePass = prompt("Type password to initiate nuclear weapon launch.");
 
 function nuke() {
-  if (nukePass == "mystery")
+  if (nukePass == "mystery") {
   return console.log("working");
+  }
 }
